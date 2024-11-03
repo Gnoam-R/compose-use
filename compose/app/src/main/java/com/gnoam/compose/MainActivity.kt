@@ -4,12 +4,16 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Send
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -65,20 +69,39 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun ButtonExample(onButtonClicked: () -> Unit) {
+//    Button(
+//        onClick = onButtonClicked,
+//        border = BorderStroke(10.dp, Color.Magenta),
+//        shape = CircleShape,
+//        contentPadding = PaddingValues(20.dp)
+//    ) {
+//        Icon(
+//            imageVector = Icons.Filled.Send,
+//            contentDescription = null
+//        )
+//        Spacer(
+//            modifier = Modifier.size(ButtonDefaults.IconSize)
+//        )
+//        Text(text = "send")
+//    }
+    
     Button(
-        onClick = onButtonClicked,
-        border = BorderStroke(10.dp, Color.Magenta),
-        shape = CircleShape,
-        contentPadding = PaddingValues(20.dp)
+        colors = ButtonDefaults.buttonColors(
+            contentColor = Color.Magenta,
+//            backgroundColor = Color.Cyan,
+        ),
+        onClick = {},
+        modifier = Modifier.padding(50.dp)
     ) {
-        Icon(
-            imageVector = Icons.Filled.Send,
-            contentDescription = null
-        )
+        Icon(imageVector = Icons.Filled.Search, contentDescription = null,)
+
         Spacer(
-            modifier = Modifier.size(ButtonDefaults.IconSize)
+            modifier = Modifier.size(ButtonDefaults.IconSpacing)
         )
-        Text(text = "send")
+        Text(
+            "Search",
+            modifier = Modifier.offset(y = -10.dp)
+        )
     }
 }
 
