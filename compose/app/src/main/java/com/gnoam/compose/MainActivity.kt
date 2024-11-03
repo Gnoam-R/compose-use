@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -22,6 +23,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -69,19 +71,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun ButtonExample(onButtonClicked: () -> Unit) {
-    Surface(
-        border = BorderStroke(
-            width = 2.dp,
-            color = Color.Magenta
-        ),
-        modifier = Modifier.padding(5.dp),
-        shape = CircleShape,
-
-    ) {
-        Text(
-            text = "Hello Android!",
-            modifier = Modifier.padding(3.dp)
-        )
+    Box {
+        Box(modifier = Modifier.fillMaxSize().background(Color.Cyan).align(Alignment.CenterStart))
+        Box(modifier = Modifier.size(70.dp).background(Color.Yellow).align(Alignment.Center))
     }
 }
 
