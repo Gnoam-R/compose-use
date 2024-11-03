@@ -69,38 +69,18 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 @Composable
 fun ButtonExample(onButtonClicked: () -> Unit) {
-//    Button(
-//        onClick = onButtonClicked,
-//        border = BorderStroke(10.dp, Color.Magenta),
-//        shape = CircleShape,
-//        contentPadding = PaddingValues(20.dp)
-//    ) {
-//        Icon(
-//            imageVector = Icons.Filled.Send,
-//            contentDescription = null
-//        )
-//        Spacer(
-//            modifier = Modifier.size(ButtonDefaults.IconSize)
-//        )
-//        Text(text = "send")
-//    }
-    
-    Button(
-        colors = ButtonDefaults.buttonColors(
-            contentColor = Color.Magenta,
-//            backgroundColor = Color.Cyan,
+    Surface(
+        border = BorderStroke(
+            width = 2.dp,
+            color = Color.Magenta
         ),
-        onClick = {},
-        modifier = Modifier.padding(50.dp)
-    ) {
-        Icon(imageVector = Icons.Filled.Search, contentDescription = null,)
+        modifier = Modifier.padding(5.dp),
+        shape = CircleShape,
 
-        Spacer(
-            modifier = Modifier.size(ButtonDefaults.IconSpacing)
-        )
+    ) {
         Text(
-            "Search",
-            modifier = Modifier.offset(y = -10.dp)
+            text = "Hello Android!",
+            modifier = Modifier.padding(3.dp)
         )
     }
 }
