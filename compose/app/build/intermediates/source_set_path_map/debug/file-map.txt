@@ -38,9 +38,9 @@ com.gnoam.compose.app-lifecycle-viewmodel-savedstate-2.8.6-36 /Users/roh/.gradle
 com.gnoam.compose.app-customview-poolingcontainer-1.0.0-37 /Users/roh/.gradle/caches/transforms-3/e955d2ad3b7fdd262da1f822c4578020/transformed/customview-poolingcontainer-1.0.0/res
 com.gnoam.compose.app-core-ktx-1.9.0-38 /Users/roh/.gradle/caches/transforms-3/eee94ecdf5941a4a6aeff6328ddc45bc/transformed/core-ktx-1.9.0/res
 com.gnoam.compose.app-foundation-1.4.0-39 /Users/roh/.gradle/caches/transforms-3/fefc16278070ba1f448b8faf49b6180b/transformed/foundation-1.4.0/res
-com.gnoam.compose.app-resValues-40 /Users/roh/noam/compose/app/build/generated/res/resValues/debug
-com.gnoam.compose.app-packageDebugResources-41 /Users/roh/noam/compose/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.gnoam.compose.app-packageDebugResources-42 /Users/roh/noam/compose/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.gnoam.compose.app-merged_res-43 /Users/roh/noam/compose/app/build/intermediates/merged_res/debug
-com.gnoam.compose.app-debug-44 /Users/roh/noam/compose/app/src/debug/res
-com.gnoam.compose.app-main-45 /Users/roh/noam/compose/app/src/main/res
+com.gnoam.compose.app-resValues-40 /Users/roh/noam/compose-use/compose/app/build/generated/res/resValues/debug
+com.gnoam.compose.app-packageDebugResources-41 /Users/roh/noam/compose-use/compose/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.gnoam.compose.app-packageDebugResources-42 /Users/roh/noam/compose-use/compose/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.gnoam.compose.app-merged_res-43 /Users/roh/noam/compose-use/compose/app/build/intermediates/merged_res/debug
+com.gnoam.compose.app-debug-44 /Users/roh/noam/compose-use/compose/app/src/debug/res
+com.gnoam.compose.app-main-45 /Users/roh/noam/compose-use/compose/app/src/main/res

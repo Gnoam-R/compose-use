@@ -4,23 +4,6 @@
             "outputFile": "com.gnoam.compose.app-mergeDebugResources-42:/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/roh/noam/compose/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "44",
-                        "endOffsets": "56"
-                    },
-                    "to": {
-                        "startLines": "104",
-                        "startColumns": "4",
-                        "startOffsets": "6204",
-                        "endColumns": "44",
-                        "endOffsets": "6244"
-                    }
-                },
-                {
                     "source": "/Users/roh/.gradle/caches/transforms-3/0660d66b2dafe9aadd86144575754ed9/transformed/activity-1.7.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -69,6 +52,40 @@
                         "startOffsets": "5948",
                         "endColumns": "49",
                         "endOffsets": "5993"
+                    }
+                },
+                {
+                    "source": "/Users/roh/noam/compose-use/compose/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "84",
+                        "endOffsets": "136"
+                    },
+                    "to": {
+                        "startLines": "147",
+                        "startColumns": "4",
+                        "startOffsets": "8599",
+                        "endColumns": "83",
+                        "endOffsets": "8678"
+                    }
+                },
+                {
+                    "source": "/Users/roh/noam/compose-use/compose/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "5,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "370,544,591,638,685,730,775",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "407,586,633,680,725,770,812"
                     }
                 },
                 {
@@ -144,37 +161,20 @@
                     }
                 },
                 {
-                    "source": "/Users/roh/noam/compose/app/src/main/res/values/colors.xml",
+                    "source": "/Users/roh/noam/compose-use/compose/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "44",
+                        "endOffsets": "56"
                     },
                     "to": {
-                        "startLines": "5,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "370,544,591,638,685,730,775",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "407,586,633,680,725,770,812"
-                    }
-                },
-                {
-                    "source": "/Users/roh/noam/compose/app/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "3",
+                        "startLines": "104",
                         "startColumns": "4",
-                        "startOffsets": "56",
-                        "endColumns": "84",
-                        "endOffsets": "136"
-                    },
-                    "to": {
-                        "startLines": "147",
-                        "startColumns": "4",
-                        "startOffsets": "8599",
-                        "endColumns": "83",
-                        "endOffsets": "8678"
+                        "startOffsets": "6204",
+                        "endColumns": "44",
+                        "endOffsets": "6244"
                     }
                 },
                 {
